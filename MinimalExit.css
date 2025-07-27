@@ -1,0 +1,100 @@
+@import "Nebula/Nebula.css";
+
+#tabbrowser-tabpanels {
+
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+
+}
+
+#zen-appcontent-navbar-container {
+
+  background-color: rgb(17, 17, 17) !important;
+
+}
+
+#browser {
+
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  backdrop-filter: blur(8px);
+  padding: 10px;
+
+}
+
+#zen-main-app-wrapper {
+
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  backdrop-filter: blur(5px);
+
+}
+
+:root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]):not([zen-compact-animating]) {
+  #navigator-toolbox[zen-has-empty-tab]::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100vh;
+    z-index: 12;
+    pointer-events: auto;
+    background: transparent;
+  }
+  #navigator-toolbox[zen-has-empty-tab]:hover::before {
+    pointer-events: none !important;
+    z-index: 0 !important;
+  }
+
+  #navigator-toolbox[zen-has-empty-tab]:not(:hover) {
+    position: fixed !important;
+    z-index: 10 !important;
+    top: 0 !important;
+    bottom: var(--zen-element-separation) !important;
+    left: calc(-1 * var(--actual-zen-sidebar-width) + 1px) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    padding: 0 var(--zen-compact-float) !important;
+    transition:
+      left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 0.4s ease !important;
+  }
+  #navigator-toolbox[zen-has-empty-tab]:hover {
+    left: 0 !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    --zen-toolbox-max-width: 64px !important;
+    --zen-compact-float: var(--zen-element-separation) !important;
+    padding: 0 0 0 var(--zen-toolbox-padding) !important;
+    top: 0 !important;
+    transition:
+      left 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 0.35s ease !important;
+  }
+
+  #navigator-toolbox[zen-has-empty-tab]:hover * {
+    pointer-events: auto !important;
+  }
+  &:not([zen-right-side="true"]) #navigator-toolbox[zen-has-empty-tab]:not(:hover) {
+    left: calc(-1 * var(--actual-zen-sidebar-width) + 1px) !important;
+  }
+}
+
+:root[zen-compact-mode="true"]:not([zen-compact-animating]) #navigator-toolbox:not([zen-has-empty-tab]) {
+  max-width: 60px !important;
+  background-color: rgba(17, 17, 17, 0.8) !important;
+}
+
+
+.urlbarView-row {
+  &[selected] {
+    background-color: transparent !important;
+  }
+}
+
+.titlebar-close,
+.titlebar-restore,
+.titlebar-max ,
+.titlebar-min{
+  color: transparent !important;
+}
