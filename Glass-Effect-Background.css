@@ -1,0 +1,29 @@
+#tabbrowser-tabpanels {
+
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+
+}
+
+#zen-appcontent-navbar-container {
+
+  background-color: rgb(17, 17, 17) !important;
+
+}
+
+#browser {
+
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  backdrop-filter: blur(8px);
+  padding: 10px;
+
+}
+
+#zen-main-app-wrapper {
+
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  backdrop-filter: blur(5px);
+
+}
+
