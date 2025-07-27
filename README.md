@@ -85,11 +85,12 @@ Zen-Minimal-exit/
 
 ### 🔹 Minimal Exit
 
-![Minimal Exit Screenshot](minimal-exit/preview.png)
+<img width="1919" height="1079" alt="WithoutHover" src="https://github.com/user-attachments/assets/bf9f3a32-44cd-4320-b433-d7fb0dd73da2" />
+
 
 ### 🔹 Glass Effect
 
-![Glass Effect Screenshot](glass-effect/preview.png)
+<img width="1919" height="1079" alt="Glass Prev 1" src="https://github.com/user-attachments/assets/4a1fbcc8-e5d5-46c4-8dde-32a705d17992" />
 
 ---
 
