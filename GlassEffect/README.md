@@ -17,7 +17,8 @@ Inspired by macOS and Fluent Design, this mod adds elegance without sacrificing 
 
 ## 📸 Preview
 
-GlassPrev1.png && Glassprev2.png
+
+<img width="1919" height="1079" alt="Glass Prev 1" src="https://github.com/user-attachments/assets/d9fd9673-238f-4e8c-89a8-2e1f67bb1176" />
 
 *(This shows the Zen browser window with glass effect applied, revealing part of the user's wallpaper.)*
 
