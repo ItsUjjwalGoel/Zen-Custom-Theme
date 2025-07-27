@@ -17,7 +17,7 @@ Perfect for users who want a minimal, modern look without the visual clutter of 
 
 ## 📸 Preview
 
-With Hover.png file && withoutHover.png file
+<img width="1919" height="1079" alt="With Hover" src="https://github.com/user-attachments/assets/712e48e7-2702-4233-9da8-b3ea96571db7" />
 
 ---
 
