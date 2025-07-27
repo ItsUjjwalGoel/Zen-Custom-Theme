@@ -1,89 +1,105 @@
-# 🧊 Minimal Exit Window for Zen Browser
+# 🎨 Zen Browser CSS Mods – Minimal Exit & Glass Effect
 
-A simple and elegant `userChrome.css` mod that redesigns the exit (close) button in the Zen browser to look clean, minimal, and distraction-free.
+Custom `userChrome.css` tweaks for [Zen Browser](https://zen-browser.app) to improve its minimalism and design.
+This repository currently includes:
 
----
-
-## 📥 Installation Guide
-
-Follow these steps to apply this mod to your Zen browser:
-
-### 1. Enable Custom Stylesheets
-Make sure `userChrome.css` support is enabled in Zen:
-
-- Open a new tab and go to: `about:config`
-- Search for:  
-  `toolkit.legacyUserProfileCustomizations.stylesheets`
-- Set it to: `true`
+* 🟢 **Minimal Exit** – A cleaner, distraction-free window control style
+* 🔹 **Glass Effect** – Adds a blurred, translucent background like macOS/Windows acrylic
 
 ---
 
-### 2. Open Your Profile Folder
+## ✨ Features
 
-- Visit: `about:support` in the address bar
-- Look for **"Profile Folder"** under **"Application Basics"**
-- Click on **"Open Folder"**
+### 🔹 Minimal Exit Mod
 
----
+* Replaces standard close/minimize/maximize buttons with **three minimal dots**
+* On hover: each dot **fills with color and extends slightly**, providing subtle interactivity
+* Ideal for those who want a **super clean, logo-free browser chrome**
 
-### 3. Add or Edit the `userChrome.css` File
+### 🔹 Glass Effect Mod
 
-- Inside the profile folder, create a new folder called `chrome` (if it doesn’t exist)
-- Inside the `chrome/` folder:
-
-#### ✅ If `userChrome.css` does **not exist**:
-- Create a new file named `userChrome.css`
-- Paste the code from this repository
-
-#### ✍️ If `userChrome.css` already **exists**:
-- Open the file
-- Paste the code at the bottom, or integrate it with existing styles
+* Gives the browser a **frosted glass UI**
+* Background becomes **translucent with blur**, revealing soft glimpses of your system wallpaper
+* Adds elegance without harming readability
 
 ---
 
-### 4. Restart Zen Browser
+## 🧑‍💻 Installation Guide
 
-Your new minimal exit window style will take effect after restarting Zen.
+> ⚠️ This only works if Zen supports `userChrome.css` (as it’s built on Firefox)
 
----
+1. **Open Zen Browser**
+2. Navigate to `about:support`
+3. Click **"Open Folder"** next to **"Profile Folder"**
+4. Inside that folder:
 
-## 🧪 What This Mod Does
+   * Create a folder named `chrome` (if it doesn’t exist)
+   * Create or edit a file called `userChrome.css`
+5. Copy-paste the CSS from any of the themes (`Minimal Exit`, `Glass Effect`) into this file
+6. Enable support:
 
-- Hides or simplifies other window control buttons
-- Makes the **close (X)** button subtle and elegant
-- Adds a gentle hover effect
-
----
-
-## 🖼️ Preview
-
-Without Hover:
-
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e05d4ce5-3211-46bd-b5eb-a507f1191809" />
-
-With Hover:
-
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/dfa93a70-96da-425b-b439-3472e3d2d2b6" />
-
+   * Open `about:config`
+   * Set `toolkit.legacyUserProfileCustomizations.stylesheets` → `true`
+7. **Restart the browser** to apply changes
 
 ---
 
-## 📂 File Contents
+## 🥉 Using Multiple Mods
 
-- `userChrome.css` – The core mod file with the CSS customization
-- `mod.json` – Metadata file for submission to Zen Mods directory
-- `preview.png` – Screenshot of the mod
+You can combine multiple themes by pasting them **in the same `userChrome.css` file**.
+Each section is commented and separated for easy identification.
+
+Example layout:
+
+```css
+/* ===== Minimal Exit Mod ===== */
+/* Paste code here */
+
+/* ===== Glass Effect Mod ===== */
+/* Paste code here */
+```
 
 ---
 
-## 👤 Author
+## 📁 Folder Structure
 
-Made by [Ujjwal Goel](https://github.com/ujjwalgoel)
-
-Feel free to fork, modify, or contribute!
+```
+Zen-Minimal-exit/
+│
+├── minimal-exit/
+│   ├── userChrome.css
+│   └── preview.png
+│
+├── glass-effect/
+│   ├── userChrome.css
+│   └── preview.png
+│
+├── README.md         ← You are here
+├── LICENSE
+└── mod.json          (optional if submitting to Zen Mods)
+```
 
 ---
 
-## 📄 License
+## 📸 Previews
 
-MIT – Free to use, modify, and share.
+### 🔹 Minimal Exit
+
+![Minimal Exit Screenshot](minimal-exit/preview.png)
+
+### 🔹 Glass Effect
+
+![Glass Effect Screenshot](glass-effect/preview.png)
+
+---
+
+## 🧑‍🎨 Author
+
+Crafted with minimalism in mind by [Ujjwal Goel](https://github.com/ItsUjjwalGoel)
+Feel free to use, adapt, or contribute!
+
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License.
