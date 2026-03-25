@@ -98,3 +98,9 @@
 .titlebar-min{
   color: transparent !important;
 }
+
+
+/* for extensions  */
+#zen-unified-site-data-panel{
+  --panel-width: 720px !important;
+}
