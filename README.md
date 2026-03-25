@@ -84,7 +84,8 @@ Zen-Minimal-exit/
 ## Previews
 
 ### Correct Extension Tab 
-  <img width="1919" height="1079" alt="WithoutHover" src="https://github.com/ItsUjjwalGoel/Zen-Custom-Theme/blob/main/ZenMinimalExit/Extension.jpeg" />
+![Extension](https://github.com/user-attachments/assets/b7fae57d-0d87-4b24-a4d2-bdf80ffc48e7)
+
 
 ### Minimal Exit
 
